@@ -1,46 +1,71 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Mini App Telegram</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background-color: #1e1e2f;
-      font-family: Arial, sans-serif;
-      color: white;
-      text-align: center;
-      padding: 50px;
-    }
+    <meta charset="UTF-8">
+    <title>Mini-App Exoticz59</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial Black', sans-serif;
+            background-image: url('https://raw.githubusercontent.com/didi591/Mini-AppExotic59/main/public/background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100vh;
+        }
 
-    h1 {
-      color: #00bfff;
-    }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 30px;
+            padding: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+        }
 
-    .button {
-      display: block;
-      background-color: #00bfff;
-      color: white;
-      padding: 15px 25px;
-      margin: 10px auto;
-      width: 80%;
-      max-width: 300px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 18px;
-    }
+        .btn {
+            padding: 20px 40px;
+            border: none;
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
 
-    .button:hover {
-      background-color: #0099cc;
-    }
-  </style>
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 24px rgba(255,255,255,0.4);
+        }
+
+        .luffa    { background: linear-gradient(145deg, #FFB300, #FF8C00); }
+        .potato   { background: linear-gradient(145deg, #FF3D00, #D32F2F); }
+        .miniapp  { background: linear-gradient(145deg, #4CAF50, #388E3C); }
+        .telegram { background: linear-gradient(145deg, #2196F3, #1976D2); }
+        .contact  { background: linear-gradient(145deg, #9C27B0, #7B1FA2); }
+    </style>
 </head>
 <body>
-  <h1>Bienvenue sur ta Mini-App Telegram</h1>
-  <a class="button" href="https://callup.luffa.im/c/AUiADKgAcqV" target="_blank">LUFFA</a>
-  <a class="button" href="https://ymd168.org/Exoticz591" target="_blank">Potato</a>
-  <a class="button" href="#" onclick="alert('Mini App en cours de création avec images et prix')">Mini App</a>
-  <a class="button" href="https://t.me/Roolex_6" target="_blank">Contact</a>
+    <div class="container">
+        <a href="https://callup.luffa.im/c/AUiADKgAcqV" class="btn luffa">LUFFA</a>
+        <a href="https://ymd168.org/Exoticz591" class="btn potato">POTATO</a>
+        <a href="https://mini-app-exotic59.vercel.app/" class="btn miniapp">Mini App</a>
+        <a href="https://t.me/CaliExoticzBot/ExoticzApp" class="btn telegram">TELEGRAM</a>
+        <a href="https://t.me/Roolex_6" class="btn contact">Contact</a>
+    </div>
 </body>
 </html>
