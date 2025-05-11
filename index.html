@@ -7,54 +7,49 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background: url('https://i.ibb.co/ZGV7K0X/F0-BCC2-FE-E813-4-B87-8-BDC-45609-F0-A5-BF1.png') no-repeat center center fixed;
+      font-family: 'Arial Black', sans-serif;
+      background-image: url('https://raw.githubusercontent.com/didi591/Mini-AppExotic59/main/bg-final.jpg');
       background-size: cover;
-      font-family: 'Arial', sans-serif;
-    }
-    .container {
+      background-position: center;
+      height: 100vh;
       display: flex;
-      flex-wrap: wrap;
+      align-items: center;
       justify-content: center;
-      padding: 20px;
-      background-color: rgba(0, 0, 0, 0.6);
-      border-radius: 15px;
-      max-width: 600px;
-      margin: auto;
-      margin-top: 80vh;
-      transform: translateY(-50%);
+      flex-direction: column;
     }
-    .btn {
-      flex: 1 1 40%;
-      margin: 10px;
-      padding: 20px;
-      text-align: center;
-      border-radius: 15px;
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-top: 60vh;
+    }
+    a.button {
       text-decoration: none;
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
-      transition: transform 0.2s;
+      padding: 18px 30px;
+      font-size: 22px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 6px 0 rgba(0,0,0,0.4);
+      text-shadow: 1px 1px 3px #000;
     }
-    .btn:hover {
-      transform: scale(1.05);
-    }
-    .luffa { background: #f39c12; }
-    .potato { background: #e74c3c; }
-    .miniapp { background: #27ae60; }
-    .telegram { background: #2980b9; }
-    .contact { background: #8e44ad; }
-    .icon { background: #f39c12; }
+    .luffa { background: linear-gradient(to top left, #ffc107, #ff9800); }
+    .potato { background: linear-gradient(to top left, #f44336, #e53935); }
+    .telegram { background: linear-gradient(to top left, #42a5f5, #1976d2); }
+    .miniapp { background: linear-gradient(to top left, #7e57c2, #5e35b1); }
+    .contact { background: linear-gradient(to top left, #ff7043, #f4511e); }
+    .instagram { background: linear-gradient(to top left, #f56040, #833ab4); }
   </style>
 </head>
 <body>
-  <div class="container">
-    <a href="https://callup.luffa.im/c/AUiADKgAcqV" class="btn luffa">LUFFA</a>
-    <a href="https://ymd168.org/Exoticz591" class="btn potato">POTATO</a>
-    <a href="https://mini-app-exotic59.vercel.app" class="btn miniapp">Mini App</a>
-    <a href="https://t.me/CaliExoticzBot" class="btn telegram">TELEGRAM</a>
-    <a href="https://t.me/Roolex_6" class="btn contact">Contact</a>
+  <div class="grid">
+    <a href="https://callup.luffa.im/c/AUiADKgAcqV" class="button luffa">LUFFA</a>
+    <a href="https://ymd168.org/Exoticz591" class="button potato">POTATO</a>
+    <a href="https://mini-app-exotic59.vercel.app" class="button miniapp">Mini App</a>
+    <a href="https://t.me/+5cI3CVM-8YI4NDk0" class="button telegram">TELEGRAM</a>
+    <a href="https://t.me/Roolex_6" class="button contact">Contact</a>
+    <a href="https://www.instagram.com/exoticz5962/profilecard/?igsh=Y2JubXRjY2gzYWQz" class="button instagram">INSTAGRAM</a>
   </div>
 </body>
 </html>
