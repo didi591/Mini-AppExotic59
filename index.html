@@ -5,40 +5,42 @@
   <meta charset="UTF-8">
   <title>Mini App Telegram</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://telegram.org/js/telegram-web-app.js"></script>
   <style>
     body {
-      font-family: Arial, sans-serif;
       background-color: #1e1e2f;
+      font-family: Arial, sans-serif;
       color: white;
       text-align: center;
-      padding: 40px;
+      padding: 50px;
     }
+
     h1 {
-      color: #00aced;
+      color: #00bfff;
     }
-    .box {
-      background-color: #2e2e3f;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 30px;
-    }
-    button {
-      background-color: #00aced;
+
+    .button {
+      display: block;
+      background-color: #00bfff;
       color: white;
-      padding: 10px 20px;
-      border: none;
-      margin-top: 20px;
+      padding: 15px 25px;
+      margin: 10px auto;
+      width: 80%;
+      max-width: 300px;
+      text-decoration: none;
       border-radius: 5px;
-      font-size: 16px;
+      font-size: 18px;
+    }
+
+    .button:hover {
+      background-color: #0099cc;
     }
   </style>
 </head>
 <body>
   <h1>Bienvenue sur ta Mini-App Telegram</h1>
-  <div class="box">
-    <p>Tu peux personnaliser cette app comme tu veux !</p>
-    <button onclick="Telegram.WebApp.close()">Fermer</button>
-  </div>
+  <a class="button" href="https://callup.luffa.im/c/AUiADKgAcqV" target="_blank">LUFFA</a>
+  <a class="button" href="https://ymd168.org/Exoticz591" target="_blank">Potato</a>
+  <a class="button" href="#" onclick="alert('Mini App en cours de création avec images et prix')">Mini App</a>
+  <a class="button" href="https://t.me/Roolex_6" target="_blank">Contact</a>
 </body>
 </html>
